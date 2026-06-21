@@ -1,0 +1,27 @@
+My current website components:
+
+1. Header
+   - logo
+   - nav
+
+2. Hero
+   - title
+   - description
+   - CTA button
+
+3. Cards section
+   - Card component (repeated 3 times)
+      - image
+      - name
+      - role
+      - button
+
+Future React structure:
+
+App
+ ├── Header
+ ├── Hero
+ ├── Cards
+      ├── Card
+      ├── Card
+      ├── Card
