@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     margin: 0;
     font-family: Arial, sans-serif;
@@ -30,11 +34,35 @@ body{
 
 .hero{
     text-align: center;
-    padding: 40px 20px;
+    padding: 80px 20px;
 }
 
 .hero h1{
-    margin-bottom: 10px;
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.hero p{
+    color: #555;
+    font-size: 16px;
+    max-width: 500px;
+    margin: 0 auto 20px;
+}
+
+.cta{
+    padding: 12px 25px;
+    border: none;
+    background: #000;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.cta:hover{
+    background: #333;
+    transform: scale(1.05);
 }
 
 .cards{
